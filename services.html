@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Jhietech Affordable and professional web design">
+	  <meta name="keywords" content="web design, affordable web design, professional web design">
+  	<meta name="author" content="Jhie Virl">
+    <title>Jhie Web Design | Chazin Dreamz</title>
+    <link rel="stylesheet" href="style.css">
+    
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header>
+     
+        <div id="branding">
+          <h1><span class="highlight">JHIE</span> Web Designs</h1>
+        </div>
+        <nav>
+          <span>
+            <li><a href="home.html"><i class="fa fa-home"></i>Home</a></li>
+            <li><a href="about.html"><i class="fa fa-user"></i>About</a></li>
+            <li class="current"><a href="services.html"><i class="fa fa-edit"></i>Services</a></li>
+          </span>
+        </nav>
+      </div>
+    </header>
+
+   <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="relay.html">CARRIER</a>
+ <a href="relay.html">LIFESTYLE</a>
+  <a href="relay.html">FAMILY</a>
+  <a href="relay.html"><i class="fa fa-star"></i></a>
+</div>
+
+<span class="menu1" onclick="openNav()">&#9776; 
+</span>
+
+
+    <p class="profile"> 
+
+        <img src="profile1.jpeg" alt="jhie profile">
+        </p>
+      <ul class="review">
+        <select id="sample" multiple>
+    <option value="✓"> Web-design </option>
+    <option value="✓"> Graphic-design </option>
+    <option value="✓"> UX/UI-Design </option>
+    <option value="Jhietech highly appreciate your review"> All </option>
+    <option value="✓"> Other</option>
+  </select>
+  <button onclick="getValues();">Review</button>
+  
+  <script type="text/javascript">
+    function getValues() {
+      var options = document.getElementById('sample').options;
+      var options_count = document.getElementById('sample').options.length;
+      var value = [];
+  
+      for(var i = 0; i < options_count; i++) {
+        if(options[i].selected) {
+          value.push(options[i].value);
+        }
+      }
+  
+      alert(JSON.stringify(value));
+    }
+  </script>
+      </ul>
+        <hr>
+       
+       <div class="graphic-log">
+           <div class="box">
+          <img src="logo_brush.png" style="width:100px; height:100px;border-radius: 50%;">
+          <h3>Graphic Design</h3>
+         <section id="rev">
+      <div class="size"><p class="s1"></p></div>
+      <div class="size"><p class="s2"></p></div>
+      <div class="size"><p class="s3"></p></div>
+      <div class="size"><p class="s4"></p></div>
+      <div class="size"><p class="s5"></p></div>
+  </section>
+  
+      <section id="ratings">
+          <p>
+              4.5<i class="fa fa-star-half-o"></i>
+          </p>
+        
+      <div style="color:#fff100">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-o"></i>
+</div>
+</section>
+   </div>
+    </div>
+    <hr>
+    
+           <div class="box">
+          <img src="showcase.jpg" style="width:100px; height:100px;border-radius:50%">
+          <h3>UX/UI Design</h3>
+        <section id="rev">
+      <div class="size"><p class="s1"></p></div>
+      <div class="size"><p class="s2"></p></div>
+      <div class="size"><p class="s3"></p></div>
+      <div class="size"><p class="s4"></p></div>
+      <div class="size"><p class="s5"></p></div>
+  </section>
+  
+      <section id="ratings">
+          <p>
+              4.4<i class="fa fa-star-half-o"></i>
+          </p>
+        
+      <div style="color:#fff100">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-o"></i> 
+    </div>
+    </section>
+    </div>
+    </div>
+    <hr>
+  
+           <div class="box">
+          <img src="photoshop.jpg" style="border-radius: 50%; width:100px;">
+          <h3>Photo-shop</h3>
+           <section id="rev">
+      <div class="size"><p class="s1"></p></div>
+      <div class="size"><p class="s2"></p></div>
+      <div class="size"><p class="s3"></p></div>
+      <div class="size"><p class="s4"></p></div>
+      <div class="size"><p class="s5"></p></div>
+  </section>
+  
+      <section id="ratings">
+          <p>
+              4.7<i class="fa fa-star-half-o"></i>
+          </p>
+        
+      <div style="color:#fff100">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-o"></i> 
+    </div>
+    </section>
+    </div>
+    </div>
+    <hr>
+    
+           <div class="box">
+          <img src="OIG1.jpeg" style="width:100px;border-radius:50%">
+          <h3>Web-dev</h3>
+             <section id="rev">
+      <div class="size"><p class="s1"></p></div>
+      <div class="size"><p class="s2"></p></div>
+      <div class="size"><p class="s3"></p></div>
+      <div class="size"><p class="s4"></p></div>
+      <div class="size"><p class="s5"></p></div>
+  </section>
+  
+      <section id="ratings">
+          <p>
+              4.3<i class="fa fa-star-half-o"></i>
+          </p>
+        
+      <div style="color:#fff100">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-o"></i>
+<i class="fa fa-star-half-o"></i> 
+    </div>
+    </section>
+    </div>
+    </div>
+    <hr>
+    
+           <div class="box">
+          <img src="java.jpeg" style="width:100px;height:100px;border-radius:50%">
+          <h3>JavaScript Programming</h3>
+          <section id="rev">
+      <div class="size"><p class="s1"></p></div>
+      <div class="size"><p class="s2"></p></div>
+      <div class="size"><p class="s3"></p></div>
+      <div class="size"><p class="s4"></p></div>
+      <div class="size"><p class="s5"></p></div>
+  </section>
+  
+      <section id="ratings">
+          <p>
+              4.4<i class="fa fa-star-half-o"></i>
+          </p>
+        
+      <div style="color:#fff100">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-o"></i>
+<i class="fa fa-star-half-o"></i> 
+    </div>
+    </section>
+    </div>
+    <hr>
+  <a href="#"> <p class="below"><i class="fa fa-arrow-up"></i></p></a>
+     <footer class="footer">
+         <p>Jhie Web Design  |  Copyright 2024</p>
+     </footer>
+     <script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "280px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+  </body>
+</html>
